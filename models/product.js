@@ -9,7 +9,7 @@ price: {
     type: Number,
     required: [true, "Price must be required"]
 },
-featured: {
+feature: {
     type: Boolean,
     default: false
 },

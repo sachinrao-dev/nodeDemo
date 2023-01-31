@@ -1,0 +1,25 @@
+[
+    {
+        "name": "iphone",
+        "price": 233,
+        "feature": true,
+        "company": "Apple"
+    },
+    {
+        "name": "lava",
+        "price": 233,
+        "feature": true,
+        "company": "Lava"
+    },
+    {
+        "name": "readme",
+        "price": 233,
+        "feature": true,
+        "company": "Dell"
+    },{
+        "name": "Nokia",
+        "price": 233,
+        "feature": true,
+        "company": "Hp"
+    }
+]
