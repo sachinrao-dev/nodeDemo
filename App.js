@@ -16,7 +16,7 @@ app.use("/api/products", productRoutes);
 
 const start = async ()=>{
     try {
-        await connectDB();
+        await connectDB(process.env.MONGO_URl);
 
         app.listen(port, ()=>{
             console.log(`${port} is live`);
