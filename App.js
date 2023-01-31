@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const productRoutes = require("./routes/products");
+const connectDB = require("./db/connect");
+require("dotenv").config();
 
 const port = process.env.PORT || 5000;
 
@@ -14,6 +16,7 @@ app.use("/api/products", productRoutes);
 
 const start = async ()=>{
     try {
+        await connectDB();
 
         app.listen(port, ()=>{
             console.log(`${port} is live`);
